@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eternal Shop · Laboratorio de complejidad</title>
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="stylesheet" href="css/laboratorio.css">
+</head>
+<body>
+<div id="pagina">
+  <div id="cab"><a class="volver" href="index.html">← Volver a la tienda</a><div class="marca">Eternal Shop · Laboratorio de complejidad</div>
+    <div class="lema">Mide en vivo, en este navegador, los cuatro algoritmos del prototipo con catálogos de hasta 100.000 productos.</div></div>
+
+  <div class="panel">
+    <h2>1. ¿Cómo crece cada módulo cuando crece el catálogo?</h2>
+    <div class="barra-botones">
+      <button id="b100">n = 100</button><button id="b1000">n = 1.000</button><button id="b10000">n = 10.000</button>
+      <button id="b100000">n = 100.000</button><button id="bserie" class="fuerte">Serie completa</button><button id="blimpiar" class="suave">Limpiar</button>
+    </div>
+    <div id="estado"></div>
+    <div class="cols">
+      <div class="col-tabla">
+        <table><thead><tr><th>Productos (n)</th><th>M1<br>µs por consulta</th><th>M2<br>ms</th><th>M3<br>ms</th><th>M4<br>ms</th><th>Comparaciones de M3</th><th>% de n·log₂n</th></tr></thead><tbody id="tbody1"></tbody></table>
+        <p class="pista"><b>Qué mirar:</b> con 1.000 veces más productos, M1 apenas cambia (O(1)); M2 y M4 crecen en proporción (O(n)); M3 crece un poco más (O(n log n)). Las comparaciones de M3 se mantienen por debajo de n·log₂n.</p>
+      </div>
+      <div class="col-graf"><canvas id="g1" width="900" height="380"></canvas></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>2. ¿Y si validáramos duplicados comparando todos contra todos?</h2>
+    <div class="barra-botones"><button id="bpares" class="fuerte">Comparar M4 con la comparación por pares</button></div>
+    <div class="cols">
+      <div class="col-tabla">
+        <table><thead><tr><th>Productos (n)</th><th>M4 conjunto hash<br>ms</th><th>Por pares<br>ms</th><th>Comparaciones<br>n(n−1)/2</th><th>Pares / M4</th></tr></thead><tbody id="tbody2"></tbody></table>
+        <p class="pista"><b>Qué mirar:</b> al duplicar n, M4 tarda el doble y la comparación por pares tarda cuatro veces más: O(n) frente a O(n²).</p>
+      </div>
+      <div class="col-graf"><canvas id="g2" width="900" height="340"></canvas></div>
+    </div>
+  </div>
+  <div class="pie">Los catálogos se generan en el navegador con una semilla fija; los tiempos dependen de este equipo y de su navegador. Prototipo académico con datos ficticios.</div>
+</div>
+<script src="js/algoritmos.js"></script>
+<script src="js/laboratorio.js"></script>
+<script src="js/lab_ui.js"></script>
+</body>
+</html>

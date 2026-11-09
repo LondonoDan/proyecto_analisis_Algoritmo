@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="chaquetas gris">
+<rect width="200" height="200" rx="18" fill="#EEF1F6"/><ellipse cx="100" cy="184" rx="58" ry="6" fill="#000" opacity=".08"/>
+<path d="M64 36 L84 30 Q100 48 116 30 L136 36 L172 128 L150 138 L138 98 L138 174 L62 174 L62 98 L50 138 L28 128 Z" fill="#9A9A9A" stroke="#5F5F5F" stroke-width="3" stroke-linejoin="round"/>
+<path d="M84 30 Q100 52 116 30 L120 44 Q100 62 80 44 Z" fill="#545454" opacity=".3"/><line x1="100" y1="50" x2="100" y2="174" stroke="#5F5F5F" stroke-width="2.5" stroke-dasharray="3 3"/>
+<path d="M70 120 L88 120 M112 120 L130 120" stroke="#5F5F5F" stroke-width="2.5"/>
+</svg>

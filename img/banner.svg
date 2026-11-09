@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" preserveAspectRatio="xMinYMid slice" role="img" aria-label="Colección Eternal Shop">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F3864"/><stop offset="1" stop-color="#2E75B6"/></linearGradient></defs>
+<rect width="800" height="200" fill="url(#g)"/><circle cx="700" cy="30" r="120" fill="#fff" opacity=".07"/><circle cx="90" cy="190" r="100" fill="#fff" opacity=".06"/>
+<g transform="translate(470 22) scale(.75)" opacity=".95">
+<path d="M60 40 L85 30 Q100 46 115 30 L140 40 L170 75 L148 92 L138 80 L138 170 L62 170 L62 80 L52 92 L30 75 Z" fill="#F4F4F4" stroke="#C9D4E8" stroke-width="3"/></g>
+<g transform="translate(560 18) scale(.8)"><path d="M62 34 L138 34 L146 178 L108 178 L100 90 L92 178 L54 178 Z" fill="#3B6EA5" stroke="#9DB7E0" stroke-width="3"/></g>
+<g transform="translate(650 24) scale(.75)"><path d="M78 30 L92 30 Q100 48 108 30 L122 30 L130 84 L158 178 L42 178 L70 84 Z" fill="#B5443C" stroke="#E7A9A3" stroke-width="3"/></g>
+<text x="32" y="92" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#fff">Nueva colección</text>
+<text x="32" y="130" font-family="Arial, sans-serif" font-size="20" fill="#DCE6F2">Prendas para todos los días</text></svg>

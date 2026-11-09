@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="vestidos azul">
+<rect width="200" height="200" rx="18" fill="#EEF1F6"/><ellipse cx="100" cy="184" rx="58" ry="6" fill="#000" opacity=".08"/>
+<path d="M78 30 L92 30 Q100 48 108 30 L122 30 L130 84 L158 178 L42 178 L70 84 Z" fill="#3B6EA5" stroke="#244466" stroke-width="3" stroke-linejoin="round"/>
+<path d="M70 84 L130 84" stroke="#244466" stroke-width="3"/><path d="M70 84 Q100 96 130 84" fill="#203C5A" opacity=".25"/>
+<path d="M80 178 Q86 130 92 100 M120 178 Q114 130 108 100" fill="none" stroke="#244466" stroke-width="1.5" opacity=".7"/>
+</svg>

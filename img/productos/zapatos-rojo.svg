@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="zapatos rojo">
+<rect width="200" height="200" rx="18" fill="#EEF1F6"/><ellipse cx="100" cy="184" rx="58" ry="6" fill="#000" opacity=".08"/>
+<path d="M26 128 Q38 98 70 98 L96 106 Q122 112 152 120 Q178 126 178 144 L178 152 L26 152 Z" fill="#B5443C" stroke="#702A25" stroke-width="3" stroke-linejoin="round"/>
+<rect x="24" y="146" width="156" height="14" rx="6" fill="#632521" opacity=".45" stroke="#702A25" stroke-width="2"/>
+<path d="M82 106 L92 118 M96 110 L106 122 M110 114 L120 126" stroke="#702A25" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

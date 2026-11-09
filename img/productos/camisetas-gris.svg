@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="camisetas gris">
+<rect width="200" height="200" rx="18" fill="#EEF1F6"/><ellipse cx="100" cy="184" rx="58" ry="6" fill="#000" opacity=".08"/>
+<path d="M62 38 Q100 62 138 38 L168 64 L148 86 L138 76 L138 168 L62 168 L62 76 L52 86 L32 64 Z" fill="#9A9A9A" stroke="#5F5F5F" stroke-width="3" stroke-linejoin="round"/>
+<path d="M76 40 Q100 62 124 40" fill="none" stroke="#5F5F5F" stroke-width="3"/><path d="M62 150 L138 150" stroke="#5F5F5F" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

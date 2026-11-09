@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="camisas rojo">
+<rect width="200" height="200" rx="18" fill="#EEF1F6"/><ellipse cx="100" cy="184" rx="58" ry="6" fill="#000" opacity=".08"/>
+<path d="M60 40 L85 30 Q100 46 115 30 L140 40 L170 75 L148 92 L138 80 L138 170 L62 170 L62 80 L52 92 L30 75 Z" fill="#B5443C" stroke="#702A25" stroke-width="3" stroke-linejoin="round"/>
+<path d="M85 30 L100 56 L92 64 L74 40 Z M115 30 L100 56 L108 64 L126 40 Z" fill="#B5443C" stroke="#702A25" stroke-width="3" stroke-linejoin="round"/>
+<line x1="100" y1="56" x2="100" y2="170" stroke="#702A25" stroke-width="2"/>
+<g fill="#632521"><circle cx="100" cy="84" r="2.6"/><circle cx="100" cy="108" r="2.6"/><circle cx="100" cy="132" r="2.6"/><circle cx="100" cy="156" r="2.6"/></g>
+</svg>
